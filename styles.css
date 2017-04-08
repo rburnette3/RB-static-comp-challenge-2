@@ -1,4 +1,145 @@
 *{
   box-sizing: border-box;
 }
-header
+body, html, section, main, div, aside {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+/*@media screen and (min-width: 320px){*/
+
+
+
+body{
+  background-color: #CCDBDC;
+  font-family: 'Roboto', sans-serif;
+  }
+
+
+header{
+  background-color: #2D2D2A;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 100%;
+}
+
+.skatebook-logo{
+  height: 200px;
+  width: 200px;
+  padding-bottom: 40px;
+
+}
+h1{
+  color:#CCDBDC;
+  font-size: 32px;
+  padding-top: 25px;
+  margin-top:0;
+  text-align: center;
+}
+nav{
+  padding-bottom: 30px;
+}
+
+a{
+  color:#CCDBDC;
+  font-size: 16px;
+  padding:10px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.icon{
+  width:20px;
+  padding-right: 5px;
+}
+.shares-div{
+  height:50px;
+  width: 300px;
+
+}
+.shares {
+  font-size: 24px;
+  margin-left: 85px;
+}
+.profile-card-album{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+article{
+  border: solid 1px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom:50px;
+  height:500px;
+  width:300px;
+  box-shadow: 0px 10px 10px #888888;
+}
+
+.profile-pic{
+  height:200px;
+  width: 300px;
+  display:flex;
+  background-image: url(assets/caballero2.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.link-container{
+  background-color: #A2AAAB;
+  height:50px;
+  width:240px;
+  display: flex;
+  margin: auto;
+  margin-top: 20px;
+  padding-left: 20px;
+}
+.link-text{
+
+}
+h2, .date, .http-container, .lower-text, .attachment-counter{
+  padding-left: 30px;
+}
+.skatername-div{
+  height:100px;
+  width:300px;
+}
+.date{
+  color:#A2AAAB;
+  font-size: 12px;
+  margin: 0px;
+}
+.playlist-div{
+  height:100px;
+  width:300px;
+  padding-top:20px
+}
+.lower-text{
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.playlist-name{
+  margin-top: 0;
+}
+.attachments-div{
+  /*background: black;*/
+  height:100px;
+  width:300px;
+  /*padding-bottom: 15px;*/
+}
+.attachment-counter{
+  color:#cc3300;
+  font-size: 36px;
+  margin-top: 0;
+  margin-bottom:0;
+  padding-bottom: 25px;
+}
+h2{
+  margin-bottom: 0;
+}
+}
