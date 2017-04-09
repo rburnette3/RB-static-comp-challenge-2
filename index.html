@@ -4,22 +4,36 @@
     <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>static_comp_2</title>
+      <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <main>
       <header>
+        <div class="skatebook-div">
         <h1>skatebook</h1>
-
-        <img class="skatebook-logo"src="assets/skatebook-logo.svg" alt="skatebook-logo">
+        </div>
+        <div class="logo-div">
+        <img class="skatebook-logo"src="assets/skatebook-logo.png" alt="skatebook-logo">
+        </div>
 
         <nav>
           <a href="#" class="shares-nav"><img class="icon shares-icon" src="assets/004-share.svg" alt="shares icon">shares</a>
 
           <a href="#" class="playlist-nav"><img class="icon playlist-icon" src="assets/002-playlist.svg" alt="playlist icon">playlist</a>
 
-          <a href="#" class="icon camera-icon"><img class="icon camera-icon" src="assets/003-video-camera.svg" alt="camera icon">video</a>
+          <a href="#" class"video-nav"><img class="icon camera-icon" src="assets/003-video-camera.svg" alt="camera icon">video</a>
 
+
+
+          <div class="dropdown">
+            <button class="drop-button"><img class="icon avatar-icon" src="assets/001-avatar.svg" alt="avatar icon">Admin</button>
+            <div class="dropdown-content">
+              <a href="#">Steve</a>
+              <a href="#">Mike</a>
+              <a href="#">Rodney</a>
+          </div>
+          </div>
         </nav>
       </header>
 
@@ -32,7 +46,14 @@
 
 <!--profile card 1-->
         <article class="profile-card">
-          <div class="profile-pic">
+          <div class="caballero-pic profile-pic">
+            <a href="#"><img class="arrow-icon" src="assets/arrows.svg" alt="arrow icon">
+            </a>
+            <p class="views">views</p>
+            <br>
+            <p class="view-count">02</p>
+
+
           </div>
           <section class= "profile-card-text">
             <h2 class="skater-name">Steve Caballero</h2>
@@ -53,10 +74,15 @@
 
 <!--profile card 2-->
         <article class="profile-card">
-          <div class="profile-pic">
+          <div class="bufoni-pic profile-pic">
+            <a href="#"><img class="arrow-icon" src="assets/arrows.svg" alt="arrow icon">
+              <p class="views">views</p>
+              <br>
+              <p class="view-count">02</p>
+            </a>
           </div>
           <section class= "profile-card-text">
-            <h2 class="skater-name">Steve Caballero</h2>
+            <h2 class="skater-name">Leticia Bufoni</h2>
             <p class="date"> Monday 05/03/2017 11:59pm</p>
             <div class="link-container">
               <p class="link-text" >https://skatebook.skatebook</p>
@@ -74,10 +100,15 @@
 
 <!--profile card 3-->
         <article class="profile-card">
-          <div class="profile-pic">
+          <div class="mcgill-pic profile-pic">
+            <a href="#"><img class="arrow-icon" src="assets/arrows.svg" alt="arrow icon">
+              <p class="views">views</p>
+              <br>
+              <p class="view-count">02</p>
+            </a>
           </div>
           <section class= "profile-card-text">
-            <h2 class="skater-name">Steve Caballero</h2>
+            <h2 class="skater-name">Mike Mcgill</h2>
             <p class="date"> Monday 05/03/2017 11:59pm</p>
             <div class="link-container">
               <p class="link-text" >https://skatebook.skatebook</p>
@@ -95,10 +126,15 @@
 
 <!--profile card 4-->
         <article class="profile-card">
-          <div class="profile-pic">
+          <div class="hosoi-pic profile-pic">
+            <a href="#"><img class="arrow-icon" src="assets/arrows.svg" alt="arrow icon">
+              <p class="views">views</p>
+              <br>
+              <p class="view-count">02</p>
+            </a>
           </div>
           <section class= "profile-card-text">
-            <h2 class="skater-name">Steve Caballero</h2>
+            <h2 class="skater-name">Christian Hosoi</h2>
             <p class="date"> Monday 05/03/2017 11:59pm</p>
             <div class="link-container">
               <p class="link-text" >https://skatebook.skatebook</p>
@@ -116,10 +152,15 @@
 
 <!--profile card 5-->
         <article class="profile-card">
-          <div class="profile-pic">
+          <div class="mullen-pic profile-pic">
+            <a href="#"><img class="arrow-icon" src="assets/arrows.svg" alt="arrow icon">
+              <p class="views">views</p>
+              <br>
+              <p class="view-count">02</p>
+            </a>
           </div>
           <section class= "profile-card-text">
-            <h2 class="skater-name">Steve Caballero</h2>
+            <h2 class="skater-name">Rodney Mullen</h2>
             <p class="date"> Monday 05/03/2017 11:59pm</p>
             <div class="link-container">
               <p class="link-text" >https://skatebook.skatebook</p>
@@ -137,10 +178,16 @@
 
 <!--profile card 6-->
         <article class="profile-card">
-          <div class="profile-pic">
+          <div class="rodriguez-pic profile-pic">
+            <a href="#"><img class="arrow-icon" src="assets/arrows.svg" alt="arrow icon">
+              <p class="views">views</p>
+              <br>
+              <p class="view-count">02</p>
+            </a>
+
           </div>
           <section class= "profile-card-text">
-            <h2 class="skater-name">Steve Caballero</h2>
+            <h2 class="skater-name">Paul Rodriguez</h2>
             <p class="date"> Monday 05/03/2017 11:59pm</p>
             <div class="link-container">
               <p class="link-text" >https://skatebook.skatebook</p>
@@ -158,10 +205,15 @@
 
 <!--profile card 7-->
         <article class="profile-card">
-          <div class="profile-pic">
+          <div class="vallely-pic profile-pic">
+            <a href="#"><img class="arrow-icon" src="assets/arrows.svg" alt="arrow icon">
+              <p class="views">views</p>
+              <br>
+              <p class="view-count">02</p>
+            </a>
           </div>
           <section class= "profile-card-text">
-            <h2 class="skater-name">Steve Caballero</h2>
+            <h2 class="skater-name">Mike Valelly</h2>
             <p class="date"> Monday 05/03/2017 11:59pm</p>
             <div class="link-container">
               <p class="link-text" >https://skatebook.skatebook</p>
@@ -179,10 +231,15 @@
 
 <!--profile card 8-->
         <article class="profile-card">
-          <div class="profile-pic">
+          <div class="way-pic profile-pic">
+            <a href="#"><img class="arrow-icon" src="assets/arrows.svg" alt="arrow icon">
+              <p class="views">views</p>
+              <br>
+              <p class="view-count">02</p>
+            </a>
           </div>
           <section class= "profile-card-text">
-            <h2 class="skater-name">Steve Caballero</h2>
+            <h2 class="skater-name">Danny Way</h2>
             <p class="date"> Monday 05/03/2017 11:59pm</p>
             <div class="link-container">
               <p class="link-text" >https://skatebook.skatebook</p>

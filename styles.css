@@ -7,15 +7,10 @@ body, html, section, main, div, aside {
   padding: 0;
 }
 
-/*@media screen and (min-width: 320px){*/
-
-
-
 body{
   background-color: #CCDBDC;
   font-family: 'Roboto', sans-serif;
   }
-
 
 header{
   background-color: #2D2D2A;
@@ -28,36 +23,116 @@ header{
 }
 
 .skatebook-logo{
-  height: 200px;
-  width: 200px;
-  padding-bottom: 40px;
+  width: 150px;
+  padding-bottom: 20px;
 
 }
 h1{
   color:#CCDBDC;
-  font-size: 32px;
-  padding-top: 25px;
-  margin-top:0;
+  font-size: 48px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin:0;
   text-align: center;
 }
 nav{
+  width:100%;
   padding-bottom: 30px;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
 }
+.dropdown {
+  /*float: right;*/
+  overflow: hidden;
+  margin: 0;
+
+}
+.dropdown .drop-button {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: #CCDBDC;
+  background-color: inherit;
+}
+.drop-button{
+  color:#CCDBDC;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-style: none;
+  border: none;
+  outline: none;
+
+}
+
+.container a:hover, .dropdown:hover .drop-button {
+    background-color: ;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #cc3300;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 
 a{
   color:#CCDBDC;
-  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
   padding:10px;
   text-decoration: none;
   text-transform: uppercase;
 }
 .icon{
-  width:20px;
+  width:25px;
   padding-right: 5px;
+  color:#A2AAAB;
+}
+
+.arrow-icon{
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+
+.arrow-icon:hover{
+  -webkit-transform: rotate(20deg);
+     -moz-transform: rotate(20deg);
+       -o-transform: rotate(20deg);
+      -ms-transform: rotate(20deg);
+          transform: rotate(20deg);
 }
 .shares-div{
   height:50px;
   width: 300px;
+  /*display:flex;
+  flex-direction: row;*/
 
 }
 .shares {
@@ -70,6 +145,7 @@ a{
 }
 
 article{
+  background-color: 92977E;
   border: solid 1px;
   margin: auto;
   margin-top: 50px;
@@ -83,10 +159,62 @@ article{
   height:200px;
   width: 300px;
   display:flex;
-  background-image: url(assets/caballero2.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size:cover;
+  position: relative;
 }
+.arrow-icon{
+  position:absolute;
+  left: 15px;
+  top: 10px;
+  width:50px;
+}
+.views{
+  position: absolute;
+  right:15px;
+  top:12px;
+  color:#CC3300;
+  text-transform: uppercase;
+  margin:0;
+}
+.view-count{
+position: absolute;
+right:15px;
+top:25px;
+color:#CC3300;
+font-size: 36px;
+margin:0;
+}
+
+.caballero-pic{
+  background-image: url(assets/caballero2.jpg);
+}
+
+.bufoni-pic{
+  background-image: url(assets/bufoni.jpg);
+}
+
+.mcgill-pic{
+  background-image: url(assets/mcgill.jpg);
+}
+
+.hosoi-pic{
+  background-image: url(assets/hosoi.jpg);
+}
+
+.mullen-pic{
+  background-image: url(assets/mullen.jpg);
+}
+.rodriguez-pic{
+  background-image: url(assets/rodriguez.jpg);
+}
+.vallely-pic{
+  background-image: url(assets/vallely.jpg);
+}
+.way-pic{
+  background-image: url(assets/way.jpg);
+}
+
 .link-container{
   background-color: #A2AAAB;
   height:50px;
@@ -127,10 +255,10 @@ h2, .date, .http-container, .lower-text, .attachment-counter{
   margin-top: 0;
 }
 .attachments-div{
-  /*background: black;*/
+
   height:100px;
   width:300px;
-  /*padding-bottom: 15px;*/
+
 }
 .attachment-counter{
   color:#cc3300;
@@ -141,5 +269,87 @@ h2, .date, .http-container, .lower-text, .attachment-counter{
 }
 h2{
   margin-bottom: 0;
+}
+
+
+
+
+@media screen and (min-width: 610px){
+
+  header{
+    background-color: #2D2D2A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+  }
+
+  .skatebook-logo{
+    width: 150px;
+    padding: 10px 0 20px 0;
+  }
+
+  h1{
+    color:#CCDBDC;
+    font-size: 60px;
+    margin:0;
+    text-align: center;
+    padding: 0px;
+  }
+
+  a{
+    color:#CCDBDC;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding:10px;
+  }
+
+  .icon{
+    width:30px;
+    padding-right: 5px;
+    color:#A2AAAB;
+  }
+
+  .dropdown .drop-button{
+    font-size: 18px;
+}
+}
+@media screen and (min-width: 900px){
+
+header{
+  display:block;
+  position:relative;
+}
+.skatebook-logo{
+  width:175px;
+  position: absolute;
+  top: 40px;
+  left:25px;
+  padding: 0px;
+}
+h1{
+  position: absolute;
+  bottom:5px;
+  right:25px;
+}
+button{
+  position: absolute;
+  right: 25px;
+  bottom: 225px;
+}
+.dropdown-content{
+  position: absolute;
+  right: 30px;
+  bottom: 95px;
+}
+nav{
+  position: absolute;
+  bottom: 5px;
+  left:10px;
+  justify-content: flex-start;
+  padding: 0px;
+}
+
 }
 }
