@@ -44,18 +44,18 @@ nav{
   align-items: center;
 
 }
-.dropdown {
-  /*float: right;*/
+.dropdown{
   overflow: hidden;
   margin: 0;
 
 }
-.dropdown .drop-button {
+.dropdown .drop-button{
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   color: #CCDBDC;
   background-color: inherit;
 }
+
 .drop-button{
   color:#CCDBDC;
   font-family: 'Roboto', sans-serif;
@@ -65,39 +65,33 @@ nav{
   border-style: none;
   border: none;
   outline: none;
-
-}
-
-.container a:hover, .dropdown:hover .drop-button {
-    background-color: ;
 }
 
 .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #cc3300;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+  display: none;
+  position: absolute;
+  background-color: #cc3300;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
 }
 
 .dropdown-content a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
 }
 
 .dropdown-content a:hover {
-    background-color: #ddd;
+  background-color: #ddd;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
 
 a{
   color:#CCDBDC;
@@ -129,16 +123,16 @@ a{
           transform: rotate(20deg);
 }
 .shares-div{
-  height:50px;
-  width: 300px;
-  /*display:flex;
-  flex-direction: row;*/
+  height:2px;
+  width: 100%;
+  background: : #2D2D2A;
 
 }
 .shares {
   font-size: 24px;
-  margin-left: 85px;
+  margin: 16px 0 0 16px;
 }
+
 .profile-card-album{
   display:flex;
   flex-wrap: wrap;
@@ -178,12 +172,12 @@ article{
   margin:0;
 }
 .view-count{
-position: absolute;
-right:15px;
-top:25px;
-color:#CC3300;
-font-size: 36px;
-margin:0;
+  position: absolute;
+  right:15px;
+  top:25px;
+  color:#CC3300;
+  font-size: 36px;
+  margin:0;
 }
 
 .caballero-pic{
@@ -205,12 +199,15 @@ margin:0;
 .mullen-pic{
   background-image: url(assets/mullen.jpg);
 }
+
 .rodriguez-pic{
   background-image: url(assets/rodriguez.jpg);
 }
+
 .vallely-pic{
   background-image: url(assets/vallely.jpg);
 }
+
 .way-pic{
   background-image: url(assets/way.jpg);
 }
@@ -224,26 +221,28 @@ margin:0;
   margin-top: 20px;
   padding-left: 20px;
 }
-.link-text{
 
-}
 h2, .date, .http-container, .lower-text, .attachment-counter{
   padding-left: 30px;
 }
+
 .skatername-div{
   height:100px;
   width:300px;
 }
+
 .date{
   color:#A2AAAB;
   font-size: 12px;
   margin: 0px;
 }
+
 .playlist-div{
   height:100px;
   width:300px;
   padding-top:20px
 }
+
 .lower-text{
   text-transform: uppercase;
   font-size: 12px;
@@ -254,12 +253,12 @@ h2, .date, .http-container, .lower-text, .attachment-counter{
 .playlist-name{
   margin-top: 0;
 }
-.attachments-div{
 
+.attachments-div{
   height:100px;
   width:300px;
-
 }
+
 .attachment-counter{
   color:#cc3300;
   font-size: 36px;
@@ -267,52 +266,65 @@ h2, .date, .http-container, .lower-text, .attachment-counter{
   margin-bottom:0;
   padding-bottom: 25px;
 }
+
 h2{
   margin-bottom: 0;
 }
 
+@media screen and (max-width: 400px) {
 
+a{
+  font-size: 12px
+}
 
+.icon{
+  width:16px;
+}
+
+.dropdown .drop-button  {
+  font-size: 12px;
+}
+}
 
 @media screen and (min-width: 610px){
 
   header{
-    background-color: #2D2D2A;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 300px;
-    width: 100%;
+  background-color: #2D2D2A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 100%;
   }
 
   .skatebook-logo{
-    width: 150px;
-    padding: 10px 0 20px 0;
+  width: 150px;
+  padding: 10px 0 20px 0;
   }
 
   h1{
-    color:#CCDBDC;
-    font-size: 60px;
-    margin:0;
-    text-align: center;
-    padding: 0px;
+  color:#CCDBDC;
+  font-size: 60px;
+  margin:0;
+  text-align: center;
+  padding: 0px;
   }
 
   a{
-    color:#CCDBDC;
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    padding:10px;
+  color:#CCDBDC;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  padding:10px;
   }
 
   .icon{
-    width:30px;
-    padding-right: 5px;
-    color:#A2AAAB;
+  width:30px;
+  padding-right: 5px;
+  color:#A2AAAB;
   }
 
   .dropdown .drop-button{
-    font-size: 18px;
+  font-size: 18px;
 }
 }
 @media screen and (min-width: 900px){
@@ -337,6 +349,11 @@ button{
   position: absolute;
   right: 25px;
   bottom: 225px;
+  color: #cc3300;
+
+}
+.dropdown .drop-button{
+  color: #CC3300;
 }
 .dropdown-content{
   position: absolute;
@@ -351,5 +368,4 @@ nav{
   padding: 0px;
 }
 
-}
 }
