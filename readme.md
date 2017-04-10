@@ -8,8 +8,8 @@ The color pallet of this comp was selected using Coolors based on the original o
 
 ### Original Comp ###  
 
-![original comp](assets/Screen Shot 2017-04-09 at 8.25.10 PM.png)
+![original comp](https://github.com/rburnette3/RB-static-comp-challenge-2/blob/master/assets/Screen%20Shot%202017-04-09%20at%208.25.10%20PM.png)
 
 ### Revised Comp ###
 
-![Revised Comp](assets/Screen Shot 2017-04-09 at 8.28.48 PM.png)
+![Revised Comp](https://github.com/rburnette3/RB-static-comp-challenge-2/blob/master/assets/Screen%20Shot%202017-04-09%20at%208.28.48%20PM.png)
